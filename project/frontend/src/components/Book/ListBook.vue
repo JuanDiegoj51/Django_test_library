@@ -45,7 +45,7 @@ export default {
 
         getBooks(){
 
-            const path = 'http://localhost:8000/api/v1.0/books/'
+            const path = `${process.env.BASE_URI}books/`
             axios.get(path).then((response) =>{
                 this.books = response.data
             })
