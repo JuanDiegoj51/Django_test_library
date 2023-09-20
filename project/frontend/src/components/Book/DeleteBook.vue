@@ -49,7 +49,7 @@ export default {
         },
         deleteBook(){
             const path = `${process.env.BASE_URI}books/${this.bookId}/`
-
+            
             axios.delete(path).then((response) => {
                 location.href= '/Books'
             })
