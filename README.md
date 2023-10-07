@@ -1,5 +1,5 @@
 # Django_test_library
-CRUD para libros con DJango, Vue.Js y SQLlite
+CRUD para libros con DJango, Vue.Js y Postgresql
 
 codigo extraido de: https://codigofacilito.com/cursos/taller-django-vue
 
